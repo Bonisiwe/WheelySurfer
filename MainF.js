@@ -1,9 +1,9 @@
 import *as THREE from './Libra/three.module.js';
 import * as CONTROL from './Libra/orbitcontrols.js';
 import {Ground} from './Ground.js';
-import {Wheel} from "./Wheel";
+import {Wheel} from "./Wheel.js";
 
-let scene,camera, renderer,controls, whel;
+let scene,camera, renderer,controls,whel;
 
 const createworld = () => {
     scene = new THREE.Scene();
